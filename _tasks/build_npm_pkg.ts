@@ -9,7 +9,7 @@ await build({
   entryPoints: ["mod.ts"],
   outDir: "target/npm_pkg",
   package: {
-    name: "scale-codec",
+    name: "manta-scale-codec",
     version: Deno.args[0]!,
     description: DESCRIPTION,
     sideEffects: false,
